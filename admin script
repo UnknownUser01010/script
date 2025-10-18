@@ -42,15 +42,15 @@
  end
  
  if not isfile("Nameless-Admin/Prefix.txt") then
- writefile("Nameless-Admin/Prefix.txt", ';')
+ writefile("Nameless-Admin/Prefix.txt", '-')
  else
  end
  end
  
  -- [[ PREFIX AND OTHER STUFF. ]] -- 
  local opt = {
-	 prefix = readfile("Nameless-Admin/Prefix.txt", ';'), -- If player's executor has the custom file function support it reads the prefix file to get prefix
-	 tupleSeparator = ',',	-- ;ff me,others,all | ;ff me/others/all
+	 prefix = readfile("Nameless-Admin/Prefix.txt", '-'), -- If player's executor has the custom file function support it reads the prefix file to get prefix
+	 tupleSeparator = ',',	-- -ff me,others,all | -ff me/others/all
 	 ui = {					-- never did anything with this
 		 
 	 },
